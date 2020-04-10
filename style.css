@@ -1,0 +1,80 @@
+ Theme Name:   Neve-kogle-Diana
+ Theme URI:    http://avividstudio.dk/basicwordpress/
+ Description:  Neve-kogle-Diana
+ Author:       Diana M. W. Olsen
+ Author URI:   http://avividstudio.dk/basicwordpress/
+ Template:     Neve
+ Version:      1.0.3
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  Neve
+
+
+/* skifte farver og font i menuen til Kogles stil*/
+nav#site-navigation.main-navigation {
+background-color: #565c53;
+}
+
+.nav-container {
+    background-color: #60655c;
+}
+
+.div.container.nav-bar{
+   background-color: #60655c; 
+}
+
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+    content: "\f0c9";
+    color: #e9e9e9;
+}
+
+.main-navigation .menu li a {
+color: #e9e9e9;
+}
+
+.fa-search:before {
+color: #e9e9e9;
+}
+
+.fa-angle-down:before {
+color: #e9e9e9    
+}
+    
+
+h1 {
+font-family: "Gotham Gotham";
+font-size: 59px;
+font-weight: 600;
+}
+
+h2 {
+font-family: "Gotham Gotham";
+font-size: 49px;
+font-weight: 500;
+}
+
+h3 {
+font-family: "Gotham Gotham";
+font-size: 39px;
+font-weight: 400;
+}
+
+h4 {
+font-family: "Gotham Gotham";
+font-size: 29px;
+font-weight: 300;
+}
+
+p {
+font-family:"Gotham Book Regular";
+font-size: 16px;
+font-weight:100;
+}
+
+
+/*skiftede farve pa footer*/
+.footer {
+background-color: #565c53;
+    
+}
